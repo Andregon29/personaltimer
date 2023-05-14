@@ -1,0 +1,54 @@
+.timer-container h1{
+    color: white;
+}
+.timer-container span{
+    color: white;
+}
+.timer-container{
+    left: 20vw;
+    width: auto;
+    background-color:rgb(35, 43, 63);
+    text-align: center;
+    position: relative;
+    width: 400px;
+}
+#progress{
+    fill: none; 
+    stroke-width:15px;
+    stroke:#38f6fd;
+    stroke-dashoffset: 0px;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+.time-and-circle{
+    text-align: center;
+    position: relative;
+}
+.time-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.break-inputs{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.break-inputs > div > div{
+    display: flex;
+    justify-content: space-between;
+}
+.break-inputs > div > div > input{
+    text-align: center;
+}
+.break-inputs input{
+    max-width: 100px;
+}
+.settingsDontDisplay{
+    display: none;
+}
+.settings-button{
+    margin-top: 5vh;
+}

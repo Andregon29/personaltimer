@@ -1,0 +1,37 @@
+
+.navbar-container a{
+    display: block;
+    text-decoration-line: none;
+    list-style-type:none;
+    background-color: rgb(219, 218, 218);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+
+.navbar-container a{
+    background-color: #05acb5;
+    color: white;
+}
+.navbar-container a:last-child{
+    bottom: 0;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    position: absolute;
+}
+.navbar-container ul{
+    padding: 0;
+    margin: 10px 20px;
+}
+
+.navbar-container{
+    background-color: rgba(58,62,71,255);
+    height: 100vh;
+    display: inline-block;
+    
+}

@@ -1,0 +1,10 @@
+body{
+  background-color: rgba(35,39,48,255);
+}
+.App{
+  display: flex;
+}
+
+:root{
+  --pomodoro: rgb(184, 70, 70);
+}
