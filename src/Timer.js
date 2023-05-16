@@ -40,9 +40,6 @@ function Timer() {
 
   React.useEffect(() => {
     circleDashArray.current = (time / 6000) * 78.5 + "px";
-    if (circleDashArray.current > "785px 2000px") {
-      circleDashArray.current = "0px 2000px";
-    }
   }, [time]);
 
   return (
@@ -84,30 +81,33 @@ function Timer() {
 
       <div className="break-inputs">
         <div className={settingsDisplayed ? "" : "settingsDontDisplay"}>
-          <div>
-            <label>Normal Duration</label>
-            <input
-              id="normal-duration"
-              type="number"
-              min="0"
-              step={5}
-              defaultValue={25}
-            />
-          </div>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+            Interesing Thing
+          </a>
+          {/* <div>
+              <label>Normal Duration</label>
+              <input
+                id="normal-duration"
+                type="number"
+                min="0"
+                step={5}
+                defaultValue={25}
+              />
+            </div>
 
-          <br></br>
+            <br></br>
 
-          <div>
-            <label for="short-break">Short Break Duration</label>
-            <input type="number" min="0" step={5} defaultValue={5} />
-          </div>
+            <div>
+              <label for="short-break">Short Break Duration</label>
+              <input type="number" min="0" step={5} defaultValue={5} />
+            </div>
 
-          <br></br>
+            <br></br>
 
-          <div>
-            <label>Long Break Duration</label>
-            <input type="number" min="0" step={5} defaultValue={15} />
-          </div>
+            <div>
+              <label>Long Break Duration</label>
+              <input type="number" min="0" step={5} defaultValue={15} />
+            </div> */}
         </div>
       </div>
     </div>

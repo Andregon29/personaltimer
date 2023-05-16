@@ -33,6 +33,10 @@
     left: 50%;
     transform: translate(-50%,-50%);
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .break-inputs{
     margin-top: 5vh;
     display: flex;
