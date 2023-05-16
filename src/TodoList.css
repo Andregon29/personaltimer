@@ -19,7 +19,7 @@
 
 .todo-container li{
     list-style-type: none;
-    background-color:rgb(146, 59, 213);
+    background-color:rgba(151, 236, 255, 0.377);
     border-radius: 10px;
     margin: 20px 0px;
     max-width: 400px;
@@ -31,9 +31,9 @@
     height: 30px;
 }
 .todo-container button{
-    background-color: #05acb5;
+    background-color:rgb(71, 160, 255);
     border: 0;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 2.5px;
     cursor: pointer;
     margin-left: 5vw;
@@ -43,9 +43,16 @@
 .todo-container ul{
     padding: 0;
 }
-.todo-container li > button{
-    background-color: rgb(15, 73, 109);
+.todo-container li > .yellow{
+    background-color: rgb(255, 252, 81);
     margin-left: 20px;
+    color: black;
+    margin-right: 50px;
+}
+.todo-container li > .red{
+    background-color: tomato;
+    margin-left: 20px;
+    color: black;
     margin-right: 50px;
 }
 .todo-container p{

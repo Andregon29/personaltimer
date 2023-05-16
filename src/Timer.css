@@ -14,6 +14,7 @@
 #progress{
     fill: none; 
     stroke-width:15px;
+    stroke-linecap: round;
     stroke:#38f6fd;
     stroke-dashoffset: 0px;
     transform: rotate(-90deg);
@@ -22,6 +23,9 @@
 .time-and-circle{
     text-align: center;
     position: relative;
+    max-width: min-content;
+    transform: translate(25%);
+
 }
 .time-container{
     position: absolute;
@@ -52,7 +56,7 @@
     margin-top: 5vh;
 }
 .timer-container button{
-    background-color: rgb(222, 222, 58);
+    background-color: #38f6fd;
     color: white;
     border: 0;
     margin:  20px 20px;
@@ -60,6 +64,14 @@
     border-radius: 5px;
     cursor: pointer;
 }
+svg{
+    min-width: 250;
+    min-height: 250;
+}
 .timer-background {
-    background-color: rgb(105, 118, 114);
+    background-color: rgb(69, 72, 55);
+    width: min-content;
+    height: min-content;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgb(26, 29, 36);
 }

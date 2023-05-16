@@ -33,7 +33,7 @@ function TodoList() {
 
   return (
     <div className="todo-container">
-      <h1>TodoList</h1>
+      <h1>Todos</h1>
       <div className="todo-inputs">
         <input
           id="input-button"
@@ -52,7 +52,7 @@ function TodoList() {
               key={task.id}
             >
               <button
-                id="toggle-complete-btn"
+                className={task.completed ? "red" : "yellow"}
                 onClick={() => HandleCompleted(task.id)}
               >
                 Toggle

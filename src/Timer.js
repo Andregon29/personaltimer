@@ -39,7 +39,10 @@ function Timer() {
   };
 
   React.useEffect(() => {
-    circleDashArray.current = (time / 6000) * 79 + "px";
+    circleDashArray.current = (time / 6000) * 78.5 + "px";
+    if (circleDashArray.current > "785px 2000px") {
+      circleDashArray.current = "0px 2000px";
+    }
   }, [time]);
 
   return (
